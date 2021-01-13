@@ -1,0 +1,391 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K22 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"50 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"34 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+"43
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"52
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"56
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"61
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+"70
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"79
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"83
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"89
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"68 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"130
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"153
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"164
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"168
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"9 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\Nidec_Tester.c
+[v _ACCUMULATE_Tach_Front ACCUMULATE_Tach_Front `(v  1 e 1 0 ]
+"13
+[v _ACCUMULATE_Tach_Back ACCUMULATE_Tach_Back `(v  1 e 1 0 ]
+"17
+[v _GET_Lo_Pass GET_Lo_Pass `(a  1 e 1 0 ]
+"22
+[v _GET_Hi_Pass GET_Hi_Pass `(a  1 e 1 0 ]
+"37
+[v _GET_Tach_Front_Pass GET_Tach_Front_Pass `(a  1 e 1 0 ]
+"45
+[v _GET_Tach_Back_Pass GET_Tach_Back_Pass `(a  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"2613
+[v _WPUB WPUB `VEuc  1 e 1 @3937 ]
+"7244
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"7356
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7468
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S467 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"7495
+[s S476 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S485 . 1 `S467 1 . 1 0 `S476 1 . 1 0 ]
+[v _LATCbits LATCbits `VES485  1 e 1 @3979 ]
+"7580
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"7802
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8024
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8267
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S24 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"15040
+[s S26 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S29 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S32 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S35 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S38 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S47 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S53 . 1 `S24 1 . 1 0 `S26 1 . 1 0 `S29 1 . 1 0 `S32 1 . 1 0 `S35 1 . 1 0 `S38 1 . 1 0 `S47 1 . 1 0 ]
+[v _RCONbits RCONbits `VES53  1 e 1 @4048 ]
+"15158
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"15215
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"15298
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S588 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"15318
+[s S595 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S599 . 1 `S588 1 . 1 0 `S595 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES599  1 e 1 @4053 ]
+"15375
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"15395
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S148 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"15960
+[s S157 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S166 . 1 `S148 1 . 1 0 `S157 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES166  1 e 1 @4080 ]
+[s S232 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"16050
+[s S235 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S244 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S247 . 1 `S232 1 . 1 0 `S235 1 . 1 0 `S244 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES247  1 e 1 @4081 ]
+[s S91 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16127
+[s S100 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S109 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S113 . 1 `S91 1 . 1 0 `S100 1 . 1 0 `S109 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES113  1 e 1 @4082 ]
+"31 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/ext_int.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"32
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"59 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"61
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"4 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\Nidec_Tester.c
+[v _tach_front_acc tach_front_acc `us  1 e 2 0 ]
+"5
+[v _tach_back_acc tach_back_acc `us  1 e 2 0 ]
+"6
+[v _FAN_RPM_LIMITS_LOW FAN_RPM_LIMITS_LOW `C[2]uc  1 e 2 0 ]
+"7
+[v _FAN_RPM_LIMITS_HIGH FAN_RPM_LIMITS_HIGH `C[2]uc  1 e 2 0 ]
+"50 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"84
+[v main@hi hi `a  1 a 1 9 ]
+"83
+[v main@lo lo `a  1 a 1 8 ]
+"119
+} 0
+"50 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"68 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"164
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"166
+} 0
+"55 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"60 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"52 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"89 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"79
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"81
+} 0
+"52
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"54
+} 0
+"17 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\Nidec_Tester.c
+[v _GET_Lo_Pass GET_Lo_Pass `(a  1 e 1 0 ]
+{
+"20
+} 0
+"22
+[v _GET_Hi_Pass GET_Hi_Pass `(a  1 e 1 0 ]
+{
+"23
+[v GET_Hi_Pass@result result `a  1 a 1 4 ]
+"28
+} 0
+"58 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"77
+} 0
+"130 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"132
+[v TMR0_ISR@CountCallBack CountCallBack `VEus  1 s 2 CountCallBack ]
+"151
+} 0
+"153
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"162
+} 0
+"168
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"183
+} 0
+"61 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/ext_int.c
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+{
+"67
+} 0
+"70
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+{
+"77
+} 0
+"83
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"87
+} 0
+"13 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\Nidec_Tester.c
+[v _ACCUMULATE_Tach_Back ACCUMULATE_Tach_Back `(v  1 e 1 0 ]
+{
+"15
+} 0
+"34 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+{
+"40
+} 0
+"43
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+{
+"50
+} 0
+"56
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"60
+} 0
+"9 C:\Users\Jeffrey\MPLABXProjects\NidecFanTester.X\Nidec_Tester.c
+[v _ACCUMULATE_Tach_Front ACCUMULATE_Tach_Front `(v  1 e 1 0 ]
+{
+"11
+} 0
